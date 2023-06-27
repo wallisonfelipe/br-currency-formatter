@@ -28,44 +28,44 @@ import anyNumberToBrCurrency from 'br-currency-formatter';
 
 ```js
 anyNumberToBrCurrency("12345")
-//12345.00
+//12.345,00
 ```
 
 ```js
 anyNumberToBrCurrency("12345,00")
-//12345.00
+//12.345,00
 ```
 
 ```js
 anyNumberToBrCurrency("1,456.00")
-//1456.00
+//1.456,00
 ```
 
 ```js
 anyNumberToBrCurrency("1.456,00")
-//1456.00
+//1.456,00
 ```
 
 ```js
 anyNumberToBrCurrency("1,456,00")
-//1456.00
+//1.456,00
 ```
 
 ```js
 anyNumberToBrCurrency("1.456.00")
-//1456.00
+//1.456,00
 ```
 
 Works with invalid numbers too
 
 ```js
 anyNumberToBrCurrency("1..,456.,.00")
-//1456.00
+//1.456,00
 ```
 
 ```js
 anyNumberToBrCurrency("1..,,,,.,.456.,.00")
-//1456.00
+//1.456,00
 ```
 
 ## Sign
@@ -73,7 +73,7 @@ anyNumberToBrCurrency("1..,,,,.,.456.,.00")
 To put the sign "R$" in all formatations, pass ```true``` on second function call parameter, like this:
 ```js
   anyNumberToBrCurrency("45655,43", true)
-  //R$ 45655.45
+  //R$ 45.655,43
 ```
 
 
@@ -84,6 +84,6 @@ To put the sign "R$" in all formatations, pass ```true``` on second function cal
 To show more decimal places, use this:
 ```js
   anyNumberToBrCurrency("45655,435", true, 3)
-  //R$ 45655.455
+  //R$ 45.655,435
 ```
 Enjoy it!
