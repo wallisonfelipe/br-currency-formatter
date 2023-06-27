@@ -1,8 +1,7 @@
 
 # br-currency-formatter
 
-Simple package thats converts any passed number to currency value. Below:
-
+Simple package that converts any passed number to currency value. Below:
 
 
 ## Usage
@@ -24,7 +23,7 @@ import anyNumberToBrCurrency from 'br-currency-formatter';
 
 
 
-## Retornos
+## Returns
 
 
 ```js
