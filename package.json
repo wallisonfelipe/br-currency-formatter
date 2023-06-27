@@ -1,6 +1,6 @@
 {
   "name": "br-currency-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple package to convert any number in a formated currency BR number",
   "main": "src/index.js",
   "type": "module",
